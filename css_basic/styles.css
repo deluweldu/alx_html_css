@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 /* Apply Flexbox to the main container */
@@ -15,7 +16,8 @@ main {
 
 /* Style the header, article, aside, and footer */
 header, footer {
-    background: #ccc;
+    background: #333;
+    color: #fff;
     padding: 10px;
     text-align: center;
 }
@@ -24,14 +26,14 @@ article {
     flex: 2;
     overflow-y: auto;
     background: #eaeaea;
-    padding: 10px;
+    padding: 20px;
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
     background: #f5f5f5;
-    padding: 10px;
+    padding: 20px;
 }
 
 /* Ensure the article and aside take full height of main */
@@ -47,4 +49,24 @@ body, html {
 header, footer, article, aside {
     border: 1px solid #ddd;
 }
+/* Styling for smartphone view */
+body.works_on_smartphone {
+    display: block;
+}
 
+body.works_on_smartphone main {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
