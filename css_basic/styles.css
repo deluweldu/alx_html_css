@@ -1,0 +1,50 @@
+/* Apply Flexbox to the body */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Apply Flexbox to the main container */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Style the header, article, aside, and footer */
+header, footer {
+    background: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    background: #eaeaea;
+    padding: 10px;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background: #f5f5f5;
+    padding: 10px;
+}
+
+/* Ensure the article and aside take full height of main */
+main > * {
+    height: 100%;
+}
+
+/* Optional: Add some basic styles for better visualization */
+body, html {
+    font-family: Arial, sans-serif;
+}
+
+header, footer, article, aside {
+    border: 1px solid #ddd;
+}
+
