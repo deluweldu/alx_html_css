@@ -52,16 +52,22 @@ header, footer, article, aside {
 }
 /* Styling for smartphone view */
 body.works_on_smartphone {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: auto;
 }
 
 body.works_on_smartphone main {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 768px) {
     main {
         flex-direction: column;
+    }
+    article, aside {
+        flex: auto;
     }
 }
 
@@ -70,4 +76,46 @@ body.works_on_smartphone main {
     font-size: 24px;
     margin-right: 10px;
     vertical-align: middle;
+}
+/* Custom styles */
+header {
+    background: #4CAF50; /* Green background for header */
+}
+
+footer {
+    background: #333; /* Dark background for footer */
+}
+
+article {
+    background: #a29d9d; /* White background for article */
+}
+
+aside {
+    background: #a19e9e; /* Light grey background for aside */
+}
+
+/* Additional custom styles */
+header, footer, article, aside {
+    border-radius: 5px; /* Rounded corners for all sections */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Custom styles within the article tag */
+article p {
+    color: #333; /* Text color for paragraphs within article */
+    line-height: 1.6; /* Line height for readability */
+}
+
+/* Example custom styles within the article tag */
+article h1 {
+    color: #4CAF50; /* Heading color within article */
+}
+
+article a {
+    color: #FF5722; /* Link color within article */
+    text-decoration: none; /* Remove underline from links */
+}
+
+article a:hover {
+    text-decoration: underline; /* Underline links on hover */
 }
