@@ -1,1349 +1,204 @@
-.school-page .container {
-    margin-bottom: 74px;
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .container-2 {
-    border-radius: 5px 5px 0 0;
-    background: url('../assets/images/bitmap_1.png');
-    position: relative;
-    display: flex;
-    padding: 45px 0 45px 1px;
-    width: 255px;
-    height: 154px;
-    box-sizing: border-box;
-  }
-  .school-page {
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1440px;
-    box-sizing: border-box;
-  }
-  .school-page .part-5-footer {
-    background: #071629;
-    position: relative;
+body {
+    height: 29.6vh;
+    margin: 10;
+    font-family: Arial, sans-serif;
+    background-color:rgb(144, 144, 146);
+   
+}
+
+nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 90px 0 40px 0;
-    width: 1440px;
-    box-sizing: border-box;
-  }
-  .school-page .social-icons {
-    margin-bottom: 89px;
-    display: flex;
-    flex-direction: row;
-    width: 130px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .tuto-2 {
-    box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.178);
-    border-radius: 5px;
-    background: #FFFFFF;
-    position: relative;
-    margin-right: 30px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 11px;
-    box-sizing: border-box;
-  }
-  .school-page .avatar {
-    margin-right: 13px;
-    width: 30px;
-    height: 30px;
-  }
-  .school-page .phillip-massey {
-    margin: 2px 0 1px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.929;
-    color: #C271FF;
-  }
-  .school-page .min {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.929;
-    color: #C271FF;
-  }
-  .school-page .rating {
-    margin: 8px 0 4px 0;
-    display: flex;
-    flex-direction: row;
-    width: 107px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .instagram {
-    width: 30px;
-    height: 30px;
-  }
-  .school-page .star-1 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-2 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-3 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-4 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-5 {
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .lorem-ipsum-dolor-si {
-    margin: 0 13px 13.4px 13px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    color: rgba(7, 22, 41, 0.502);
-  }
-  .school-page .sad-smile {
-    margin: 0 13px 8.6px 13px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
+}
+
+header .logo {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  box-sizing: border-box;
+  margin: 171.59px;
+
+}
+
+nav{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+
+}
+
+li {
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    text-align: center;
+    color:#FFFFFF;
     font-weight: 700;
-    font-size: 16px;
-    color: #071629;
-  }
-  .school-page .preview {
-    border-radius: 5px 5px 0 0;
-    background: #D8D8D8;
-    position: relative;
-    margin-bottom: 18px;
-    display: flex;
-    width: 255px;
-    height: 154px;
-    box-sizing: border-box;
-  }
-  .school-page .play {
-    width: 64px;
-    height: 64px;
-  }
-  .school-page .tuto-3 {
-    box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.178);
-    border-radius: 5px;
-    background: #FFFFFF;
-    position: relative;
-    margin-right: 30px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 11px;
-    box-sizing: border-box;
-  }
-  .school-page .avatar-1 {
-    margin-right: 13px;
-    width: 30px;
-    height: 30px;
-  }
-  .school-page .phillip-massey-1 {
-    margin: 2px 0 1px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
+    font-size: 12px;
     font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.929;
-    color: #C271FF;
-  }
-  .school-page .min-1 {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.929;
-    color: #C271FF;
-  }
-  .school-page .rating-1 {
-    margin: 8px 0 4px 0;
-    display: flex;
-    flex-direction: row;
-    width: 107px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .star-11 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-21 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-31 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-41 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-51 {
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .lorem-ipsum-dolor-si-1 {
-    margin: 0 13px 13.4px 13px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    color: rgba(7, 22, 41, 0.502);
-  }
-  .school-page .natural-smile {
-    margin: 0 13px 8.6px 13px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
+    margin-right: 10px;
+    width: 95px;
+}
+
+#school-page h1{
+    
+    color: white;
     font-weight: 700;
-    font-size: 16px;
-    color: #071629;
-  }
-  .school-page .preview-1 {
-    border-radius: 5px 5px 0 0;
-    background: #D8D8D8;
-    position: relative;
-    margin-bottom: 18px;
-    display: flex;
-    width: 255px;
-    height: 154px;
-    box-sizing: border-box;
-  }
-  .school-page .play-1 {
-    width: 64px;
-    height: 64px;
-  }
-  .school-page .tuto-4 {
-    box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.178);
-    border-radius: 5px;
-    background: #FFFFFF;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 11px;
-    box-sizing: border-box;
-  }
-  .school-page .avatar-2 {
-    margin-right: 13px;
-    width: 30px;
-    height: 30px;
-  }
-  .school-page .phillip-massey-2 {
-    margin: 2px 0 1px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.929;
-    color: #C271FF;
-  }
-  .school-page .min-2 {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.929;
-    color: #C271FF;
-  }
-  .school-page .rating-2 {
-    margin: 8px 0 4px 0;
-    display: flex;
-    flex-direction: row;
-    width: 107px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .star-12 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-22 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-32 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-42 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-52 {
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .lorem-ipsum-dolor-si-2 {
-    margin: 0 13px 13.4px 13px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    color: rgba(7, 22, 41, 0.502);
-  }
-  .school-page .happy-smile {
-    margin: 0 13px 8.6px 13px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 16px;
-    color: #071629;
-  }
-  .school-page .preview-2 {
-    border-radius: 5px 5px 0 0;
-    background: #D8D8D8;
-    position: relative;
-    margin-bottom: 18px;
-    display: flex;
-    width: 255px;
-    height: 154px;
-    box-sizing: border-box;
-  }
-  .school-page .bitmap-3 {
-    background: url('../assets/images/bitmap_5.png');
-    position: absolute;
-    top: -105px;
-    right: -180.5px;
-    width: 546px;
-    height: 364px;
-  }
-  .school-page .play-2 {
-    position: relative;
-    width: 64px;
-    height: 64px;
-  }
-  .school-page .part-1-testimonials {
-    background: #C271FF;
-    position: relative;
-    margin: 0 1px 87px 0;
-    display: flex;
-    flex-direction: row;
-    padding: 108px 0 124px 0;
-    width: 1440px;
-    box-sizing: border-box;
-  }
-  .school-page .avatar-3 {
-    margin-right: 53px;
-    width: 160px;
-    height: 160px;
-  }
-  .school-page .text {
-    margin-top: 2px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  .school-page .weather-presenter {
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 1.527;
-    color: #FFFFFF;
-  }
-  .school-page .person-name {
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 1.527;
-    color: #FFFFFF;
-  }
-  .school-page .those-tutorials-ar {
-    margin-bottom: 22px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 1.527;
-    color: #FFFFFF;
-  }
-  .school-page .main-part {
-    background: #071629;
-    position: relative;
-    margin-bottom: 0px;
-    display: flex;
-    padding: 758px 0 98px 3px;
-    width: 1440px;
-    box-sizing: border-box;
-  }
-  .school-page .object {
-    background: url('../assets/images/bitmap.png');
-    position: absolute;
-    left: -221.1px;
-    top: -824px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    padding-top: 101px;
-    width: 1448.2px;
-    height: 1055px;
-    box-sizing: border-box;
-  }
-  .school-page .get-schooled {
-    position: relative;
-    margin-right: 4.8px;
-    overflow-wrap: break-word;
+    justify-content: center;
+    margin-left: 400px;
     font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
     font-size: 120px;
-    color: #FFFFFF;
-  }
-  .school-page .smiles {
-    margin-right: 9.5px;
+
+}
+#txt {
+    margin-right: 9.5;
+    margin: 500px;
     width: 101.9px;
     overflow-wrap: break-word;
     font-family: 'Source Sans Pro', 'Roboto Condensed';
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF;
-  }
-  .school-page .grin {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 16px;
-    color: #FFFFFF;
-  }
-  .school-page .laugh {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 16px;
-    color: #FFFFFF;
-  }
-  .school-page .button {
+    align-items: normal;
+    justify-content: right;
+    display: inline;
+}
+
+#txt span{
+    padding: 20px;
+}
+
+#school-page button{
     border-radius: 22px;
     background: #C271FF;
     position: relative;
-    margin: 0 2.8px 168px 0;
-    display: flex;
-    padding: 13px 1px 15px 0;
-    width: 162px;
+    margin: 0 2.8px 168px o;
+    color: #fff;
+    padding: 13 px 1px 15px 0;
     box-sizing: border-box;
-  }
-  .school-page .register-for-free {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 14px;
-    color: #FFFFFF;
-  }
-  .learn-from-the-pros {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 540px
+}
+
+#Title1{
     font-family: 'Source Sans Pro', 'Roboto Condensed';
     font-weight: 300;
     font-size: 32px;
     line-height: 1.333;
-    color: #FFFFFF;
-  }
-  .learn-from-the-pros-sub1 {
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.333;
-    color: #C271FF;
-  }
-  .learn-from-the-pros-sub2 {
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.333;
-    color: #FFFFFF;
-  }
-  .school-page .learn-from-the-pros {
-    position: relative;
-    margin-left: 26.2px;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 32px;
-    color: #C271FF;
-  }
-  .school-page .pros {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .school-page .pro-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .school-page .twitter {
-    margin-right: 20px;
-    display: flex;
-    width: 30px;
-    height: 30px;
-    box-sizing: border-box;
-  }
-  .school-page .henry-hughes {
-    margin-bottom: 2px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #FFFFFF;
-  }
-  .school-page .hsmiles-winne {
-    margin: 0 9.3px;
+    margin: 50px;
+    padding: 50px;
+}
+
+#Title1{
+    color: #fff;
     text-align: center;
+    font-weight: lighter;
+    margin: 30px;
     overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #FFFFFF;
-  }
-  .school-page .avatar-4 {
-    margin-bottom: 10px;
-    width: 150px;
-    height: 150px;
-  }
-  .school-page .pro-3 {
-    margin-right: 139px;
+}
+
+#txt2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#txt2 div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
-  }
-  .school-page .bruce-walters {
-    margin-bottom: 2px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #FFFFFF;
-  }
-  .school-page .best-friend-smile {
-    margin: 0 6.4px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #FFFFFF;
-  }
-  .school-page .avatar-5 {
-    margin-bottom: 10px;
-    width: 150px;
-    height: 150px;
-  }
-  .school-page .combined-shape-2 {
-    width: 30px;
-    height: 30px;
-  }
-  .school-page .pro-2 {
-    margin: 0 131px 24px 0;
+    justify-content: center;
+    
+}
+#txt2 img{
+    border-radius:  50%;
+}
+#txt2 h3, p{
+    color:#fff;
+    padding: 10px;
+}
+Section div img{
+    height: 160px;
+    width: 160px;
+}
+section div{
+    color:#FFFFFF;
+    margin-left: 50px;
+}
+section div h3{
+    margin-top: 30px;
+}
+.tutorials h2{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    box-sizing: border-box;
-  }
-  .school-page .nannie-lawrence {
-    margin: 0 13.2px 2px 13.2px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #FFFFFF;
-  }
-  .school-page .best-little-smile {
-    margin: 0 0.1px;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #FFFFFF;
-  }
-  .school-page .avatar-6 {
-    margin-bottom: 10px;
-    width: 150px;
-    height: 150px;
-  }
-  .school-page .pro-1 {
-    margin-right: 139px;
+    margin: 40px;
+}
+.tutorials2{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .school-page .phillip-massey-3 {
-    margin-bottom: 2px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #FFFFFF;
-  }
-  .school-page .smile-of-the-year {
-    margin: 0 13.3px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #FFFFFF;
-  }
-  .school-page .avatar-7 {
-    margin-bottom: 10px;
-    width: 150px;
-    height: 150px;
-  }
-  .school-page .header {
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200;
+    margin-top: 30px;
+}
+.tutorials3{
+    width: 335px;
+    height: 335px;
+}
+.image-container {
     position: relative;
-    margin-bottom: 155.5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1099.6px;
-    box-sizing: border-box;
-  }
-  .school-page .logo {
-    display: flex;
-    flex-direction: row;
-    width: 167px;
-    box-sizing: border-box;
-  }
-  .school-page .smile-school {
-    margin: 6.5px 0 10.4px 0;
-    width: 111.8px;
-    height: 12.6px;
-  }
-  .school-page .facebook {
-    margin-right: 20px;
-    display: flex;
-    width: 30px;
-    height: 30px;
-    box-sizing: border-box;
-  }
-  .school-page .path {
-    margin-right: 10.8px;
-    width: 7.9px;
-    height: 11.8px;
-  }
-  .school-page .path-1 {
-    width: 7.9px;
-    height: 11.8px;
-  }
-  .school-page .path-2 {
-    transform: rotate(-7deg);
-    width: 36.4px;
-    height: 13.1px;
-  }
-  .school-page .menu {
-    margin: 2px 0 13.5px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 230.2px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .courses {
-    margin-right: 7px;
-    width: 95px;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 12px;
-    color: #FFFFFF;
-  }
-  .school-page .combined-shape-3 {
-    width: 30px;
-    height: 30px;
-  }
-  .school-page .pricing {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 12px;
-    color: #FFFFFF;
-  }
-  .school-page .login {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 12px;
-    color: #FFFFFF;
-  }
-  .school-page .part-4-faq {
-    margin: 0 25.4px 84px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .faq {
-    margin: 0 0 79px 33.4px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 300;
-    font-size: 60px;
-    color: #071629;
-  }
-  .school-page .logo-1 {
-    position: relative;
-    margin: 5px 0 84.5px 0;
-    display: flex;
-    width: 36.4px;
-    height: 29.5px;
-    box-sizing: border-box;
-  }
-  .school-page .q-1 {
-    margin-right: 223.4px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  .school-page .lorem-ipsum-dolor-si-3 {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    color: rgba(7, 22, 41, 0.502);
-  }
-  .school-page .how-does-this-work {
-    margin-bottom: 31px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 16px;
-    color: #071629;
-  }
-  .school-page .q-3 {
-    margin-right: 223.4px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  .school-page .lorem-ipsum-dolor-si-copy {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    color: rgba(7, 22, 41, 0.502);
-  }
-  .school-page .how-does-this-work-1 {
-    margin-bottom: 31px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 16px;
-    color: #071629;
-  }
-  .school-page .q-2 {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  .school-page .lorem-ipsum-dolor-si-4 {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    color: rgba(7, 22, 41, 0.502);
-  }
-  .school-page .how-does-this-work-2 {
-    margin-bottom: 31px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 16px;
-    color: #071629;
-  }
-  .school-page .q-4 {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  .school-page .smile-school-1 {
+    width: 255px;
+    height: 154px;
+}
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.overlay-image {
+    width: 70px;
+    height: auto;
     position: absolute;
-    right: -131.3px;
-    bottom: -5.5px;
-    overflow-wrap: break-word;
-    font-family: 'Coiny';
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF;
-  }
-  .school-page .lorem-ipsum-dolor-si-copy-2 {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    color: rgba(7, 22, 41, 0.502);
-  }
-  .school-page .how-does-this-work-3 {
-    margin-bottom: 31px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 16px;
-    color: #071629;
-  }
-  .school-page .part-3-free-membership {
-    background: #071629;
-    position: relative;
-    margin-bottom: 67px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
+.tutorials3 h3{
+    margin-top: 0;
+}
+.tutorials3 p{
+    color: #000000;
+}
+.tot{
+    height: 70px;
+}
+.tutorials4{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 70px 0 52px 0;
-    width: 1440px;
-    box-sizing: border-box;
-  }
-  .free-membership {
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 1.333;
-    color: #FFFFFF;
-  }
-  .free-membership-sub1 {
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.333;
-    color: #C271FF;
-  }
-  .free-membership-sub2 {
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.333;
-    color: #FFFFFF;
-  }
-  .school-page .free-membership {
-    margin: 0 0 60px 28px;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 32px;
-    color: #C271FF;
-  }
-  .school-page .button-1 {
-    border-radius: 22px;
-    background: #C271FF;
-    position: relative;
-    display: flex;
-    padding: 13px 0 15px 2px;
-    width: 162px;
-    box-sizing: border-box;
-  }
-  .school-page .register-for-free-1 {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 14px;
-    color: #FFFFFF;
-  }
-  .school-page .dot-1 {
-    margin-right: 129.5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .school-page .lorem-ipsum-dolor-si-5 {
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.857;
-    color: #FFFFFF;
-  }
-  .school-page .smile {
-    width: 36.4px;
-    height: 29.5px;
-  }
-  .school-page .lorem-ipsum {
-    margin-bottom: 13px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.444;
-    color: #FFFFFF;
-  }
-  .school-page .smile-1 {
-    margin: 0 0 26.6px 0.1px;
-    width: 43.7px;
-    height: 35.4px;
-  }
-  .school-page .dot-2 {
-    margin-right: 130.5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .school-page .lorem-ipsum-dolor-si-6 {
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.857;
-    color: #FFFFFF;
-  }
-  .school-page .lorem-ipsum-1 {
-    margin-bottom: 13px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.444;
-    color: #FFFFFF;
-  }
-  .school-page .smile-2 {
-    margin: 0 0 26.6px 0.1px;
-    width: 43.7px;
-    height: 35.4px;
-  }
-  .school-page .dot-3 {
-    margin-right: 131.5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .school-page .lorem-ipsum-dolor-si-7 {
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.857;
-    color: #FFFFFF;
-  }
-  .school-page .lorem-ipsum-2 {
-    margin-bottom: 13px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.444;
-    color: #FFFFFF;
-  }
-  .school-page .smile-3 {
-    margin: 0 0 26.6px 0.1px;
-    width: 43.7px;
-    height: 35.4px;
-  }
-  .school-page .dot-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .school-page .lorem-ipsum-dolor-si-8 {
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.857;
-    color: #FFFFFF;
-  }
-  .school-page .lorem-ipsum-3 {
-    margin-bottom: 13px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.444;
-    color: #FFFFFF;
-  }
-  .school-page .smile-4 {
-    margin: 0 0 26.6px 0.1px;
-    width: 43.7px;
-    height: 35.4px;
-  }
-  .school-page .part-2-tutorials {
-    margin: 0 1px 87px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .most-popular-tutoria {
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 1.333;
-    color: #071629;
-  }
-  .most-popular-tutoria-sub1 {
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 1.333;
-    color: #071629;
-  }
-  .most-popular-tutoria-sub2 {
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.333;
-    color: #C271FF;
-  }
-  .most-popular-tutoria-sub3 {
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.333;
-    color: #FFFFFF;
-  }
-  .school-page .most-popular-tutoria {
-    margin: 0 0 77px 31px;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 300;
-    font-size: 32px;
-    color: #071629;
-  }
-  .school-page .tuto-1 {
-    box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.178);
-    border-radius: 5px;
-    background: #FFFFFF;
-    position: relative;
-    margin-right: 31px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 11px;
-    box-sizing: border-box;
-  }
-  .school-page .avatar-8 {
-    margin-right: 13px;
+}
+.tutorials4 img{
     width: 30px;
     height: 30px;
-  }
-  .school-page .phillip-massey-4 {
-    margin: 2px 0 1px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.929;
-    color: #C271FF;
-  }
-  .school-page .min-3 {
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.929;
-    color: #C271FF;
-  }
-  .school-page .rating-3 {
-    margin: 8px 0 4px 0;
     display: flex;
-    flex-direction: row;
-    width: 107px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .star-13 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-23 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-33 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .smileschool-2020 {
-    opacity: 0.352;
-    margin-top: 105px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 12px;
-    color: #FFFFFF;
-  }
-  .school-page .star-43 {
-    margin-right: 8px;
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .star-53 {
-    width: 15px;
-    height: 15px;
-  }
-  .school-page .lorem-ipsum-dolor-si-9 {
-    margin: 0 13px 13.4px 13px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    color: rgba(7, 22, 41, 0.502);
-  }
-  .school-page .diagonal-smile {
-    margin: 0 13px 8.6px 13px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Source Sans Pro', 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 16px;
-    color: #071629;
-  }
-  .school-page .preview-3 {
-    border-radius: 5px 5px 0 0;
-    background: #D8D8D8;
-    position: relative;
-    margin-bottom: 18px;
-    display: flex;
-    width: 255px;
-    height: 154px;
-    box-sizing: border-box;
-  }
-  .school-page .play-3 {
-    width: 64px;
-    height: 64px;
-  }
-  .school-page .container-4 {
-    position: relative;
-    margin: 0 4.2px 39px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 249.9px;
-    box-sizing: border-box;
-  }
-  .school-page .container-6 {
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .container-8 {
-    margin: 0 22px 0 13px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 220px;
-    box-sizing: border-box;
-  }
-  .school-page .container-9 {
-    margin: 0 13px 6px 13px;
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .container-10 {
-    margin: 0 5.4px 4.5px 4.4px;
-    display: flex;
-    flex-direction: row;
-    width: 26.6px;
-    box-sizing: border-box;
-  }
-  .school-page .container-11 {
-    border-radius: 5px 5px 0 0;
-    background: url('../assets/images/bitmap_3.png');
-    position: relative;
-    display: flex;
-    padding: 45px 0 45px 1px;
-    width: 255px;
-    height: 154px;
-    box-sizing: border-box;
-  }
-  .school-page .container-12 {
-    margin: 0 22px 0 13px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 220px;
-    box-sizing: border-box;
-  }
-  .school-page .container-13 {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-  }
-  .school-page .container-14 {
-    position: relative;
-    display: flex;
-    box-sizing: border-box;
-  }
-  .school-page .container-15 {
-    border-radius: 5px 5px 0 0;
-    background: url('../assets/images/bitmap_1.png');
-    position: relative;
-    display: flex;
-    padding: 45px 0 45px 1px;
-    width: 255px;
-    height: 154px;
-    box-sizing: border-box;
-  }
-  .school-page .container-16 {
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .container-17 {
-    margin: 0 13px 6px 13px;
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .container-18 {
-    border-radius: 5px 5px 0 0;
-    background: url('../assets/images/bitmap_4.png');
-    position: relative;
-    display: flex;
-    padding: 45px 0 45px 1px;
-    width: 255px;
-    height: 154px;
-    box-sizing: border-box;
-  }
-  .school-page .container-19 {
-    margin: 0 22px 0 13px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 220px;
-    box-sizing: border-box;
-  }
-  .school-page .container-21 {
-    margin-right: 18.8px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 36.4px;
-    box-sizing: border-box;
-  }
-  .school-page .container-22 {
-    margin: 0 13px 6px 13px;
+    justify-content: center;
+}
+.tutorials h4{
+    color: #C271FF;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.icon{
     display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .container-24 {
-    margin: 0 13px 6px 13px;
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .school-page .container-25 {
-    margin: 0 22px 0 13px;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 220px;
-    box-sizing: border-box;
-  }
-  .school-page .container-29 {
-    margin-bottom: 85px;
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    box-sizing: border-box;
-  }
+    color:#C271FF;
+    width: 110;
+    height: 15px;
+    margin: 15px;
+}
