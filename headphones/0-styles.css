@@ -1,0 +1,49 @@
+/* Variables */
+:root {
+    --secondary-color: #FF6565;
+    --background-color: #f5f5f5;
+    --text-color: #333;
+    --header-height: 60px;
+    --font-family: 'Source Sans Pro', Arial, sans-serif;
+    --font-size: 16px;
+    --button-color: #e74c3c;
+    --button-hover-opacity: 0.9;
+    --max-content-width: 1000px;
+}
+/*-----------------------------------------------General Styles-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body html {
+    height: 100%;
+    background: url(assets\headphones_hero_1.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------header Styles---------------------------------------------------------*/
+header {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+
+header img {
+    height: 32px;
+}
+
+nav ul {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 255px;
+     margin:auto;
+
+}
+
+nav ul li {
+    list-style: none;
+}
