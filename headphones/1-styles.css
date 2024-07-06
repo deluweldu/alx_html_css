@@ -1,37 +1,258 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif  ;
-    background: #FFFFFF;
-    display: flex;
+/* Variables */
+:root {
+    --secondary-color: #FF6565;
+    --background-color: #bab6b6;
+    --header-height: 60px;
+    --font-family: 'Source Sans Pro', Arial, sans-serif;
+    --font-size: 16px;
+    --button-color: #e74c3c;
+    --button-hover-opacity: 0.9;
+    --max-content-width: 1000px;
+}
+/*-----------------------------------------------General Styles-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+*, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.header header{
-    position:fixed;
-    top: 0px;
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    padding: 0 20px;
-    color: #343434;
-    width:100%;
-    z-index: 1000;
-}
-.header img{
-    height:40px;
-}
-nav ul li{
-    margin-right: 10px;
-}
-nav ul li a {
-    text-decoration: none;
-    color:#4b4a4a;
-    display: inline-block;
-    padding: 10px; /*add padding to links to increase clickable area */ 
-}
-.main-part {
-    text-align: center;
-    margin-top: 60px;
-    padding: 50px 20px;
-    background-image: url(headphones_hero_1.jpg) no-repeat center center;
+
+body { 
+    height: 100%;
+    background-image: url('assets\headphones_hero_1.jpg') no-repeat fixed center;
     background-size: cover;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
 }
+
+/*-----------------------------------------------------------------------------------------------------------------header Styles---------------------------------------------------------*/
+header {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 6em;
+} 
+
+header img {
+    height: 32px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+nav ul {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 255px;
+     margin: auto;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a:hover, nav a:active {
+    color: #FF6565;
+} 
+
+/*---------------------------------Container Styles--------------------------------------------------------------*/
+main{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.main-part .txt1 {
+    margin: 0 52.5px 2px 51.5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Source Sans Pro', 'Roboto Condensed';
+    font-size: 32px;
+    font-weight: 700;
+}
+.main-part .txt2 {
+    margin-bottom: 41px;
+    overflow-wrap: break-word;
+    font-family:'Source Sans Pro', 'Roboto Condensed' ;
+    font-size: var(--font-size);
+    font-weight: 700;
+}
+
+.main-part .lorem {
+    font-size: var(--font-size);
+    font-weight: 400;
+    overflow-wrap: break-word;
+    line-height: 1.625;
+}
+ main section{
+    margin-top: 1em;
+    margin-top: 1em;
+
+}
+
+button {
+    border-radius: 22px;
+    background: var(--button-color);
+    position: relative;
+    margin: 0 1px 65px 0;
+    display: flex;
+    padding: 13px 0 15px 0;
+    width: 162px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+   
+button .button1{
+    overflow-wrap: break-word;
+    font-family: 'Source Sans Pro', 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+button a:hover button a:active{
+    opacity: var(--button-hover-opacity);
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    header {
+       padding-top: 5px;
+       padding-bottom: 15px;
+       margin-bottom: 3em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .main-part .txt1 {
+        margin: 0 10px 2px 10px;
+        font-size: 24px;
+    }
+
+    .main-part .txt2 {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .main-part .lorem {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px 0;
+        margin: 0 0 30px 0;
+    }
+
+    button .button1 {
+        font-size: 12px;
+    }
+
+
+}
+@font-face {
+    font-family: 'holberton_school-icon';
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4');
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+      url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+      url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+      url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'holberton_school-icon' !important;
+    speak-as: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .holberton_school-icon-arrow_1:before {
+    content: "\e900";
+  }
+  .holberton_school-icon-arrow_2:before {
+    content: "\e901";
+  }
+  .holberton_school-icon-arrow_3:before {
+    content: "\e902";
+  }
+  .holberton_school-icon-arrow_4:before {
+    content: "\e903";
+  }
+  .holberton_school-icon-arrow_5:before {
+    content: "\e904";
+  }
+  .holberton_school-icon-check:before {
+    content: "\e905";
+  }
+  .holberton_school-icon-ic_bag:before {
+    content: "\e906";
+  }
+  .holberton_school-icon-ic_cart:before {
+    content: "\e907";
+  }
+  .holberton_school-icon-ic_facebook:before {
+    content: "\e908";
+  }
+  .holberton_school-icon-ic_hearing:before {
+    content: "\e909";
+  }
+  .holberton_school-icon-ic_instagram:before {
+    content: "\e90a";
+  }
+  .holberton_school-icon-ic_laptop:before {
+    content: "\e90b";
+  }
+  .holberton_school-icon-ic_money:before {
+    content: "\e90c";
+  }
+  .holberton_school-icon-ic_music:before {
+    content: "\e90d";
+  }
+  .holberton_school-icon-ic_sound:before {
+    content: "\e90e";
+  }
+  .holberton_school-icon-ic_twitter:before {
+    content: "\e90f";
+  }
+  .holberton_school-icon-ic_video:before {
+    content: "\e910";
+  }
+  .holberton_school-icon-menu:before {
+    content: "\e911";
+  }
+  .holberton_school-icon-search_1:before {
+    content: "\e912";
+  }
+  .holberton_school-icon-search_2:before {
+    content: "\e913";
+  }
+  .holberton_school-icon-star:before {
+    content: "\e914";
+  }
